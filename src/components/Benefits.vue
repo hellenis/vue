@@ -1,5 +1,11 @@
 <script setup lang="ts">
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { useColorMode } from "@vueuse/core";
+const mode = useColorMode();
+
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-vue-next";
 
 import {
   Sparkle,
