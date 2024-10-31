@@ -111,7 +111,7 @@ const iconMap: Record<
 
       <img
         class="w-full md:w-[1200px] mx-auto rounded-lg relative rouded-lg leading-none flex items-center border border-t-2 border-t-primary/30 img-border-animation"
-        :src="mode === 'light' ? '2_20241101_020510_0001.png' : '2_20241101_020510_0001.png'"
+        :src="mode === 'light' ? '20241101_021538_0000.png' : '20241101_021538_0000.png'"
         alt="dashboard using shadcn-vue"
       />
 
