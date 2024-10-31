@@ -107,5 +107,25 @@ const iconMap: Record<
         </Card>
       </div>
     </div>
+  <div class="relative group mt-14">
+        <!-- gradient shadow -->
+        <div
+          class="absolute -top-6 right-12 w-[90%] h-12 lg:h-[80%] bg-primary/50 blur-3xl rounded-full img-shadow-animation"
+        ></div>
+
+        <img
+          class="w-full md:w-[1200px] mx-auto rounded-lg relative rouded-lg leading-none flex items-center border border-t-2 border-t-primary/30 img-border-animation"
+          :src="
+            mode == 'light' ? 'hero.png' : 'hero.png'
+          "
+          alt="dashboard using shadcn-vue"
+        />
+
+        <!-- gradient effect img -->
+        <div
+          class="absolute bottom-0 left-0 w-full h-20 md:h-28 bg-gradient-to-b from-background/0 via-background/50 to-background rounded-lg"
+        ></div>
+      </div>
+    </div>
   </section>
 </template>
