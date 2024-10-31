@@ -71,12 +71,11 @@ const iconMap: Record<
         <h2 class="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
 
         <h2 class="text-3xl md:text-4xl font-bold mb-4">
-          Your Shortcut to Success
+          We Are a Profesional
         </h2>
         <p class="text-xl text-muted-foreground mb-8">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ducimus
-          reprehenderit architecto rerum similique facere odit deleniti
-          necessitatibus quo quae.
+          Kami adalah tim yang ahli di bidang pengembangan perangkat lunak. 
+          Di sini, kami ingin berbagi lebih banyak tentang siapa kami dan keahlian kami dalam menciptakan solusi perangkat lunak yang profesional.
         </p>
       </div>
 
