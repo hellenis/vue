@@ -3,10 +3,6 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useColorMode } from "@vueuse/core";
 const mode = useColorMode();
 
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-vue-next";
-
 import {
   Sparkle,
   Tag,
@@ -68,16 +64,11 @@ const iconMap: Record<
 </script>
 
 <template>
-  <section
-    id="benefits"
-    class="container py-24 sm:py-32"
-  >
+  <section id="benefits" class="container py-24 sm:py-32">
     <div class="grid lg:grid-cols-2 place-items-center lg:gap-24">
       <div>
-
-
         <h2 class="text-3xl md:text-4xl font-bold mb-4">
-          We Are a Profesional
+          We Are Professional
         </h2>
         <p class="text-xl text-muted-foreground mb-8">
           Kami adalah tim yang ahli di bidang pengembangan perangkat lunak. 
@@ -94,14 +85,13 @@ const iconMap: Record<
           <CardHeader>
             <div class="flex justify-between">
               <component
-                class="size-8 mb-6 text-primary"
                 :is="iconMap[icon]"
+                class="size-8 mb-6 text-primary"
               />
 
               <span
                 class="text-5xl text-muted-foreground/15 font-medium transition-all delay-75 group-hover/number:text-muted-foreground/30"
-                >0{{ index + 1 }}</span
-              >
+              >0{{ index + 1 }}</span>
             </div>
 
             <CardTitle>{{ title }}</CardTitle>
@@ -113,25 +103,22 @@ const iconMap: Record<
         </Card>
       </div>
     </div>
-  <div class="relative group mt-14">
-        <!-- gradient shadow -->
-        <div
-          class="absolute -top-6 right-12 w-[90%] h-12 lg:h-[80%] bg-primary/50 blur-3xl rounded-full img-shadow-animation"
-        ></div>
+    <div class="relative group mt-14">
+      <!-- gradient shadow -->
+      <div
+        class="absolute -top-6 right-12 w-[90%] h-12 lg:h-[80%] bg-primary/50 blur-3xl rounded-full img-shadow-animation"
+      ></div>
 
-        <img
-          class="w-full md:w-[1200px] mx-auto rounded-lg relative rouded-lg leading-none flex items-center border border-t-2 border-t-primary/30 img-border-animation"
-          :src="
-            mode == 'light' ? 'hero.png' : 'hero.png'
-          "
-          alt="dashboard using shadcn-vue"
-        />
+      <img
+        class="w-full md:w-[1200px] mx-auto rounded-lg relative rouded-lg leading-none flex items-center border border-t-2 border-t-primary/30 img-border-animation"
+        :src="mode === 'light' ? 'hero.png' : 'hero.png'"
+        alt="dashboard using shadcn-vue"
+      />
 
-        <!-- gradient effect img -->
-        <div
-          class="absolute bottom-0 left-0 w-full h-20 md:h-28 bg-gradient-to-b from-background/0 via-background/50 to-background rounded-lg"
-        ></div>
-      </div>
+      <!-- gradient effect img -->
+      <div
+        class="absolute bottom-0 left-0 w-full h-20 md:h-28 bg-gradient-to-b from-background/0 via-background/50 to-background rounded-lg"
+      ></div>
     </div>
   </section>
 </template>
