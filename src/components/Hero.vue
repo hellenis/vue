@@ -17,8 +17,8 @@ import { ArrowRight } from "lucide-vue-next";
           variant="outline"
           class="text-sm py-2"
         >
-          
-            <Badge>Digitalize You</Badge>
+          <span> Digitalize You </span>
+        </Badge>
     
 
         <div
