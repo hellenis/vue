@@ -30,10 +30,10 @@ interface ReviewProps {
 const reviewList: ReviewProps[] = [
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe",
-    userName: "Product Manager",
+    name: "Mustika Regi W",
+    userName: "Online shop",
     comment:
-      "Wow Vue + Shadcn-Vue is awesome!. This template lets me change colors, fonts and images to match my brand identity. ",
+      "Kami sangat senang bekerja dengan tim pengembang web T!CKK. Mereka membuat proses pengembangan web terasa begitu lancar dan mudah dipahami.",
     rating: 5.0,
   },
   {
@@ -47,18 +47,18 @@ const reviewList: ReviewProps[] = [
 
   {
     image: "https://github.com/shadcn.png",
-    name: "Adam Johnson",
-    userName: "Chief Technology Officer",
+    name: "Laras Riyadi",
+    userName: "UMKM",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "T!CKK tidak hanya merancang produk, tetapi juga menciptakan pengalaman yang memikat bagi pengguna akhir. Kami terkesan dengan kreativitas mereka.",
     rating: 4.9,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Ethan Parker",
-    userName: "Data Scientist",
+    name: "Laras Gumarno",
+    userName: "Pengusaha",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "Tim T!CKK tidak hanya menciptakan aplikasi mobile yang hebat, tetapi juga mendengarkan kebutuhan dan masukan kami dengan sangat baik.",
     rating: 5.0,
   },
   {
@@ -71,10 +71,10 @@ const reviewList: ReviewProps[] = [
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Isabella Reed",
-    userName: "DevOps Engineer",
+    name: "Adlin Alana",
+    userName: "PT Sinarbakti",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "T!CKK berhasil mengintegrasikan sistem- sistem yang berbeda dengan begitu mulusnya, sehingga kami bisa fokus pada hal-hal yang benar-benar penting.",
     rating: 4.9,
   },
 ];
