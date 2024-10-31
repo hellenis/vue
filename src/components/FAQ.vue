@@ -51,10 +51,10 @@ const FAQList: FAQProps[] = [
     class="container md:w-[700px] py-24 sm:py-32"
   >
     <div class="text-center mb-8">
-      <h2 class="text-lg text-primary text-center mb-2 tracking-wider">Pertanyaan Seputar T!CKK</h2>
+      <h2 class="text-lg text-primary text-center mb-2 tracking-wider">FAQs</h2>
 
       <h2 class="text-3xl md:text-4xl text-center font-bold">
-        Di bawah ini adalah beberapa pertanyaan yang sering diajukan oleh calon klien kami, mungkin termasuk Anda.
+        Pertanyaan Seputar T!CKK
       </h2>
     </div>
 
