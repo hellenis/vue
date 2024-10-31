@@ -55,6 +55,18 @@ const featureList: FeaturesProps[] = [
     description:
       "Membantu pemeriksaan dan mengavaluasi sistem teknologi informasi (TI) suatu organisasi agar sistem Anda berjalan dengan efisien, aman dan sesuai dengan standar yang telah ditetapkan.",
   },
+    {
+    icon: "newspaper",
+    title: "Integrated System",
+    description:
+      "Membantu mengintergrasi sistem Anda. Termasuk keamanan, otomatisasi dan pemantauan real-time.",
+  },
+    {
+    icon: "newspaper",
+    title: "ERP",
+    description:
+      "Kami menyediakan solusi ERP untuk mengintegrasikan dan mengelola proses bisnis secara efisien dalam perusahaan Anda.",
+  },
 ];
 
 const iconMap: Record<
