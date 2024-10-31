@@ -18,9 +18,9 @@ import { ArrowRight } from "lucide-vue-next";
           class="text-sm py-2"
         >
           <span class="mr-2 text-primary">
-            <Badge>New</Badge>
+            <Badge>We</Badge>
           </span>
-          <span> Design is out now! </span>
+          <span> Digitalize You </span>
         </Badge>
 
         <div
