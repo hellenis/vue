@@ -70,7 +70,7 @@ import { ArrowRight } from "lucide-vue-next";
         <img
           class="w-full md:w-[1200px] mx-auto rounded-lg relative rouded-lg leading-none flex items-center border border-t-2 border-t-primary/30 img-border-animation"
           :src="
-            mode == 'light' ? 'hero-image-light.jpg' : 'hero-image-dark.jpg'
+            mode == 'light' ? 'hero.png' : 'hero.png'
           "
           alt="dashboard using shadcn-vue"
         />
