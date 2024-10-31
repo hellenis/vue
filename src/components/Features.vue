@@ -21,39 +21,39 @@ interface FeaturesProps {
 const featureList: FeaturesProps[] = [
   {
     icon: "tabletSmartphone",
-    title: "Mobile Friendly",
+    title: "Mobile Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "Mendevelop aplikasi mobile, baik IOS maupun Android. Mulai dari pengembangan hingga optimisasi kinerja.",
   },
   {
     icon: "badgeCheck",
-    title: "Social Proof",
+    title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "Kami menyediakan jasa pembuatan website, seperti company profile, redesign website dan kustomisasi website.",
   },
   {
     icon: "goal",
-    title: "Targeted Content",
+    title: "Product Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Kami menyediakan desain produk yang inovatif dan menarik, mulai dari penelitian pengguna hingga pembuatan prototipe.",
   },
   {
     icon: "pictureInPicture",
-    title: "Strong Visuals",
+    title: "Konsultan ISO 27001",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "Percayakan pada kami! Dapatkan solusi lengkap implementasi dan sertifikasi ISO 27001. Lindungi data perusahaan Anda dengan standar internasional.",
   },
   {
     icon: "mousePointerClick",
-    title: "Clear CTA",
+    title: "IT Consultant",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+      "Konsultasi IT untuk meningkatkan strategi teknologi perusahaan. Evaluasi, Perencanaan Infrastuktur dan Implementasi.",
   },
   {
     icon: "newspaper",
-    title: "Clear Headline",
+    title: "IT Auditor",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "Membantu pemeriksaan dan mengavaluasi sistem teknologi informasi (TI) suatu organisasi agar sistem Anda berjalan dengan efisien, aman dan sesuai dengan standar yang telah ditetapkan.",
   },
 ];
 
@@ -84,18 +84,13 @@ const iconMap: Record<
     id="features"
     class="container py-24 sm:py-32"
   >
-    <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
-      Features
-    </h2>
 
     <h2 class="text-3xl md:text-4xl text-center font-bold mb-4">
-      What Makes Us Different
+      Layanan Kami
     </h2>
 
     <h3 class="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-      fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-      facere tenetur.
+      Temukan solusi terbaik untuk bisnis Anda dengan bantuan tim profesional kami yang berpengalaman di berbagai bidang, termasuk pengembangan web, pengembangan mobile, desain produk dan konsultasi IT.
     </h3>
 
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
