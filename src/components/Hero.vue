@@ -17,11 +17,9 @@ import { ArrowRight } from "lucide-vue-next";
           variant="outline"
           class="text-sm py-2"
         >
-          <span class="mr-2 text-primary">
-            <Badge>We</Badge>
-          </span>
-          <span> Digitalize You </span>
-        </Badge>
+          
+            <Badge>Digitalize You</Badge>
+    
 
         <div
           class="max-w-screen-md mx-auto text-center text-5xl md:text-6xl font-bold"
