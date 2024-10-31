@@ -19,27 +19,27 @@ interface BenefitsProps {
 const benefitList: BenefitsProps[] = [
   {
     icon: "blocks",
-    title: "Build Brand Trust",
+    title: "Expertise in Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Kami sudah berpengalaman lebih dari 10 tahun dalam bidang Web Development.",
   },
   {
     icon: "lineChart",
-    title: "More Leads",
+    title: "Cutting-Edge Technologies",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+      "Kami selalu mengikuti perkembangan teknologi terbaru dalam industri.",
   },
   {
     icon: "wallet",
-    title: "Higher Conversions",
+    title: "Client-Centric Approach",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "Kami pastikan produk yang kami tawarkan benar-benar memenuhi ekspektasi Anda.",
   },
   {
     icon: "sparkle",
-    title: "Test Marketing Ideas",
+    title: "Transparent and Reliable",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Mulai dari awal pengerjaan proyek kami akan selalu melibatkan Anda.",
   },
 ];
 
