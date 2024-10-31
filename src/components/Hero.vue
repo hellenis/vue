@@ -37,8 +37,8 @@ import { ArrowRight } from "lucide-vue-next";
         </div>
 
         <p class="max-w-screen-sm mx-auto text-xl text-muted-foreground">
-          Ahli dalam mengembangkan perangkat lunak. 
-          Kami siap menciptakan solusi yang tepat untuk bisnis Anda.
+          Kami adalah mitra terpercaya Anda dalam pengembangan perangkat lunak. 
+          Bersama-sama, kita akan mewujudkan visi digital Anda.
         </p>
 
         <div class="space-y-4 md:space-y-0 md:space-x-4">
